@@ -26,6 +26,7 @@ class TaskC2 {
 
         binary = String.format("%8s", binary).replace(" ", "0");
         System.out.print("%8s %4d %n",binary,i);
+        //nn
         System.out.printf("%8s %4d %n",binary,j);
     }
 
