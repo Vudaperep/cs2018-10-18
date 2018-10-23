@@ -17,14 +17,25 @@ OCT:42+32=74
 */
 class TaskC2 {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int i=sc.nextInt();
-        int j=sc.nextInt();
-        int s= i+j;
-        System.out.println(s);
-        String binary = Integer.toBinaryString(s);
-        binary = String.format("%8s", binary).replace(" ", "0");
-        System.out.printf("%8s  %n",binary,i);
-}
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+        int j = sc.nextInt();
+        int s = i + j;
+        System.out.println("DEC:"+i+"+"+j+"="+s);
+        String a = Integer.toBinaryString(i);
+        String b = Integer.toBinaryString(j);
+        String c = Integer.toBinaryString(s);
+        System.out.println("BIN:"+a+"+"+b+"="+c);
+        String d = Integer.toHexString(i);
+        String e = Integer.toHexString(j);
+        String f = Integer.toHexString(s);
+        System.out.println("HEX:"+d+"+"+e+"="+f);
+        String g = Integer.toOctalString(i);
+        String h = Integer.toOctalString(j);
+        String z = Integer.toOctalString(s);
+        System.out.println("OCT:"+g+"+"+h+"="+z);
 
+
+
+    }
 }
