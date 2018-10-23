@@ -23,12 +23,8 @@ class TaskC2 {
         int s= i+j;
         System.out.println(s);
         String binary = Integer.toBinaryString(s);
-
         binary = String.format("%8s", binary).replace(" ", "0");
-        System.out.print("%8s %4d %n",binary,i);
-        //nn
-        //asd
-        System.out.printf("%8s %4d %n",binary,j);
-    }
+        System.out.printf("%8s  %n",binary,i);
+}
 
 }
