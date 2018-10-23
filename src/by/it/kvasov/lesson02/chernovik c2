@@ -1,0 +1,13 @@
+class TaskC3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        double g= 9.81;
+        double m=3.86;
+        double d= g/m;
+        double s=a/d;
+        double newdouble = new BigDecimal(s).setScale(2, RoundingMode.HALF_UP).doubleValue();
+        System.out.println(newdouble);
+
+    }
+}
