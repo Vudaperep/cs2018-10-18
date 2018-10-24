@@ -42,8 +42,6 @@ class TaskC3 {
 
     public static double getWeight(int a) {
         return a;
-        //double b = 100*2.54 ;
-       // System.out.println(b);
 
 
     }
