@@ -36,12 +36,12 @@ import java.util.Scanner;
 class TaskC3{
     public static void main(String[] args){
 
-    Scanner sc= new Scanner (System.in);
-    int number = sc.nextInt();
-      System.out.println("Земля:"+ number);
-   System.out.print("Марс: ");
-     System.out.println(getWeight(number));
-}
+        Scanner sc= new Scanner (System.in);
+        int number = sc.nextInt();
+        System.out.println("Земля:"+ number);
+        System.out.print("Марс: ");
+        System.out.println(getWeight(number));
+    }
     public static double getWeight ( int Weight)
     {
         return Math.rint(100.0 * Weight * 3.86/9.81) / 100.0;
