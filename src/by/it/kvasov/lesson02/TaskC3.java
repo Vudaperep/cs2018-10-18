@@ -35,14 +35,17 @@ import java.util.Scanner;
 */
 class TaskC3 {
     public static void main(String[] args) {
+        System.out.println("Введите вес человека на земле:");
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
+        double a = sc.nextDouble();
         System.out.println(getWeight(a));
-    }
-
-    public static double getWeight(int a) {
-        return a;
 
 
+public static double getWeight(double weight){
+    double mars=0.0;
+    mars=(weight * 3.86)/9.81;
+
+    return mars;
+        }
     }
 }
