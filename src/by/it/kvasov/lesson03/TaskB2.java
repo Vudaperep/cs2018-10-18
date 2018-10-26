@@ -39,11 +39,11 @@ class TaskB2 {
         int a=sc.nextInt();
         int b=sc.nextInt();
         int c=sc.nextInt();
-        int dis=(a*a)-4*a*c;
+        int dis=(b*b)-(4*(a*c));
         System.out.println(dis);
         if (dis > 0) {
-            double k1=((-b+sqrt(dis))/2*a);
-            double k2=((-b+sqrt(dis))/2*a);
+            double k1=(((-b)+sqrt(dis))/(2*a));
+            double k2=(((-b)-sqrt(dis))/(2*a));
             System.out.println(k1+" "+k2);
         }
         if (dis == 0){
