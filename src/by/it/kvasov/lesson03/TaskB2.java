@@ -1,5 +1,9 @@
 package by.it.kvasov.lesson03;
 
+import java.util.Scanner;
+
+import static java.lang.Math.sqrt;
+
 /*
 Lesson 03. Task B2. Нужно написать программу, которая вводит три числа  a b c типа int с клавиатуры
 и вычисляет корни квадратного уравнения a*a*x + b*x + c = 0:
@@ -30,5 +34,22 @@ Lesson 03. Task B2. Нужно написать программу, котора
 
 */
 class TaskB2 {
-
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        int dis=(a*a)-4*a*c;
+        System.out.println(dis);
+        if (dis > 0) {
+            double k1=((-b+sqrt(dis))/2*a);
+            double k2=((-b+sqrt(dis))/2*a);
+            System.out.println(k1+" "+k2);
+        }
+        if (dis == 0){
+            double k3=((double)(-b)/(2*a));
+            System.out.println(k3);
+        }
+        if (dis < 0) System.out.println("Отрицательный дискриминант");
+    }
 }
