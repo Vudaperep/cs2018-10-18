@@ -28,7 +28,7 @@ public class TaskC2 {
         int a = sc.nextInt();
         System.out.println(sumDigitsInNumber(a));
     }
-    public static double sumDigitsInNumber(int number){
+    public static int sumDigitsInNumber(int number){
         int currentDigit;
         int sum=0;
         currentDigit = number % 10;
