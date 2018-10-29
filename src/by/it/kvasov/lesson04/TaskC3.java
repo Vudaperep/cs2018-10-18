@@ -23,9 +23,50 @@ package by.it.kvasov.lesson04;
 десять умножить на десять равно сто
 */
 
+import java.util.Scanner;
+
 public class TaskC3 {
     public static void main(String[] args) {
+        String s2 = "два ";
+        String s3 = "три ";
+        String s4 = "четыре ";
+        String s5 = "пять ";
+        String s6 = "шесть ";
+        String s7 = "семь ";
+        String s8 = "восемь ";
+        String s9 = "девять ";
+        String s10 = "десять ";
+        String s12 = "двенадцать ";
+        String s14 = "четырнадцать ";
+        String s15 = "пятнадцать ";
+        String s18 = "восемнадцать ";
+        String s20 = "двадцать ";
+        String s21 = "двадцать один ";
+        String s24 = "двадцать четыре ";
+        String s27 = "двадцать семь ";
+        String s28 = "двадцать восемь ";
+        String s30 = "тридцать ";
+        String s32 = "тридцать два ";
+        String s35 = "тридцать пять ";
+        String s36 = "тридцать шесть ";
+        String s40 = "сорок ";
+        String s42 = "сорок два ";
+        String s45 = "сорок пять ";
+        String s47 = "сорок девять ";
+        String s48 = "сорок восемь ";
+        String s50 = "пятьдесят ";
+        String s54 = "пятьдеят шесть ";
+        String s60 = "шестьдесят ";
+        String s63 = "шестьдесят три ";
+        String s64 = "шестедсят четыре ";
+        String s70 = "семьдесят ";
+        String s72 = "семьдесят два ";
+        String s80 = "восемьдесят ";
+        String s81 = "восемьдесят один ";
+        String s90 = "девяносто ";
+        String s100 = "сто ";
+        String um = "умножить на ";
+        String ravn = "равно ";
 
     }
-
 }

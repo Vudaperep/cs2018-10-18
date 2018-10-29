@@ -33,10 +33,9 @@ public class TaskC2 {
         Scanner sc= new Scanner(System.in);
         int a= sc.nextInt();
         int b=sc.nextInt();
-        int c = a*b;
         switch (b) {
             case 1:
-                System.out.println((0+a));break;
+                System.out.println((a));break;
             case 2:
                 System.out.println((31+a));break;
             case 3:
