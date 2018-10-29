@@ -24,5 +24,8 @@ package by.it.kvasov.lesson04;
 */
 
 public class TaskC3 {
+    public static void main(String[] args) {
+
+    }
 
 }

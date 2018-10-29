@@ -1,5 +1,7 @@
 package by.it.kvasov.lesson04;
 
+import java.util.Scanner;
+
 /*
 Напишите программу которая спрашивает у пользователя:
 Какую вы хотите зарплату в $$$?
@@ -37,6 +39,48 @@ package by.it.kvasov.lesson04;
 
 */
 public class TaskC1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double a = sc.nextDouble();
+        double i = a + a / 2;
+        if (a < 300 || a > 3000)
+        {
+            System.out.println("Мы вам перезвоним!");
 
+        }
+        else if (i == 666)
+        {
+            System.out.println("За месяц 0 начислено $0.0");
+            System.out.println("За январь начислено $" + i);
 
+        }
+        else if(a==666)
+        {
+            System.out.println("За месяц 0 начислено $0.0");
+            System.out.println("За январь начислено $" + i);
+            System.out.println("За февраль начислено $" + i);
+            System.out.println("За март начислено $" + i);
+            System.out.println("За апрель начислено $" + i);
+            System.out.println("За май начислено $" + i);
+            System.out.println("За июнь начислено $" + a);
+        }
+            else if(a>=300 || a<=3000)
+            {
+            System.out.println("За месяц 0 начислено $0.0");
+            System.out.println("За январь начислено $" + i);
+            System.out.println("За февраль начислено $" + i);
+            System.out.println("За март начислено $" + i);
+            System.out.println("За апрель начислено $" + i);
+            System.out.println("За май начислено $" + i);
+            System.out.println("За июнь начислено $" + a);
+            System.out.println("За июль начислено $" + a);
+            System.out.println("За август начислено $" + a);
+            System.out.println("За сентябрь начислено $" + i);
+            System.out.println("За октябрь начислено $" + i);
+            System.out.println("За ноябрь начислено $" + i);
+            System.out.println("За декабрь начислено $" + i);
+            System.out.println("За месяц 13 начислено $0.0");
+            System.out.println("За месяц 14 начислено $0.0");
+        }
+    }
 }

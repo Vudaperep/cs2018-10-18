@@ -25,7 +25,20 @@ package by.it.kvasov.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int i = 2;
+        int x = sc.nextInt();
+        for (int a = 1; a < x; i++) {
+            a = ((i) * (i - 1)) / 2;
+            if(a<=x)
+            System.out.print(a + ",");
+            else break;
+        }
+    }
 }
+
+
