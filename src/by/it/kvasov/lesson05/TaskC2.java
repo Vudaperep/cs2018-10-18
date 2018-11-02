@@ -17,13 +17,13 @@ public class TaskC2 {
     }
 
     public static void sort(int[] array) {
-        int t;
+        int x;
         for (int i = 0; i < array.length - 1; i++) {
             for (int j = array.length - 1; j > i; j--) {
                 if (array[j - 1] < array[j]) {
-                    t = array[j - 1];
+                    x = array[j - 1];
                     array[j - 1] = array[j];
-                    array[j] = t;
+                    array[j] = x;
                 }
             }
         }
